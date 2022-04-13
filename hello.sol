@@ -13,12 +13,12 @@ contract HelloSolidity{
 
 contract HelloSolidity {
 
-    //get() gets value from the function 
+    //get() name of the function  
     // public declares it's visibility 
     // pure is state mutability 
     //(string) return type and returns keyword tells it returns something 
 
-    
+
     function get() public pure returns(String memory){
         return "hello solidity";
     }
